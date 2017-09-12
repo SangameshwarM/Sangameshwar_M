@@ -102,19 +102,18 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student[] getByBirthDate(Date date) {
 		// Add your implementation here
-		//return date;
-	}
+			}
 
 	@Override
 	public Student[] getBetweenBirthDates(Date firstDate, Date lastDate) {
 		// Add your implementation here
-		//return students[firstDate,lastDate];
+		
 	}
 
 	@Override
 	public Student[] getNearBirthDate(Date date, int days) {
 		// Add your implementation here
-	//	return students[date,days];
+	
 	}
 
 	@Override
@@ -126,18 +125,18 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student[] getStudentsByAge(int age) {
 		// Add your implementation here
-		//return students[age];
+		
 	}
 
 	@Override
 	public Student[] getStudentsWithMaxAvgMark() {
 		// Add your implementation here
-		//return students[MAxAvgMark];
+		
 	}
 
 	@Override
 	public Student getNextStudent(Student student) {
 		// Add your implementation here
-		//return students;
+		
 	}
 }

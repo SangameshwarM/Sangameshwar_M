@@ -30,7 +30,7 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void setStudents(Student[] students) {
-		this.students=students;
+		this.students = students;
 	}
 
 	@Override

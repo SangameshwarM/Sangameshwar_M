@@ -27,12 +27,13 @@ public class StudentGroup implements StudentArrayOperation {
 	public Student[] getStudents() {
 		// Add your implementation here
 		
-		return students;
+		return null;
 	}
 
 	@Override
 	public void setStudents(Student[] students) {
-		this.students=students;
+		students.setId(createid("st1",1));
+		student list.add(students);
 	
 		
 	}

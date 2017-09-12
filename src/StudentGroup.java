@@ -25,17 +25,17 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public Student[] getStudents() {
-		return students;
+		return stduents;
 	}
 
 	@Override
 	public void setStudents(Student[] students) {
-		
+		this.students=students;
 	}
 
 	@Override
 	public Student getStudent(int index) {
-	
+		return students[index];
 	}
 
 	@Override

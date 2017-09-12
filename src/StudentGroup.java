@@ -26,14 +26,14 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student[] getStudents() {
 		// Add your implementation here
-		scanner st=new scanner(System.in);
-		int size=st.nextInt();
-		return null;
+		
+		return students;
 	}
 
 	@Override
 	public void setStudents(Student[] students) {
-		// Add your implementation here
+		this.students=students;
+	
 		
 	}
 

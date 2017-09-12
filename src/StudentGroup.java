@@ -27,13 +27,11 @@ public class StudentGroup implements StudentArrayOperation {
 	public Student[] getStudents() {
 		// Add your implementation here
 		
-		return null;
+		return students;
 	}
 
 	@Override
 	public void setStudents(Student[] students) {
-		students.setId(createid("st1",1));
-		student list.add(students);
 	
 		
 	}
@@ -67,11 +65,13 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void remove(int index) {
 		// Add your implementation here
+		studentgroup.remove(students);
 	}
 
 	@Override
 	public void remove(Student student) {
 		// Add your implementation here
+		studentgroup.remove(students);
 	}
 
 	@Override

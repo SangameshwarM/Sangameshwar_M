@@ -31,12 +31,13 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void setStudents(Student[] students) {
-		
+		this.students=students;
 	}
 
 	@Override
 	public Student getStudent(int index) {
 		
+		return stdents[index];
 		
 		}
 

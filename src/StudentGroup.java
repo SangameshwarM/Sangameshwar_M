@@ -65,13 +65,13 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void remove(int index) {
 		// Add your implementation here
-		studentgroup.remove(students);
+		
 	}
 
 	@Override
 	public void remove(Student student) {
 		// Add your implementation here
-		studentgroup.remove(students);
+		
 	}
 
 	@Override

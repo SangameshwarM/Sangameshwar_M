@@ -38,7 +38,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student getStudent(int index) {
 		// Add your implementation here
-		return students(index);
+		
 	}
 
 	@Override
